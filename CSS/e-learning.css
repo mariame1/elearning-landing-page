@@ -1,0 +1,253 @@
+body{
+    /* background-color: #FFFFFF; */
+    background: linear-gradient(180deg,#FFFFFF, #FFFFFF, #efeff7);
+    
+}
+
+.navbar-brand{
+    font-weight: 600;
+    font-size:32px;
+    margin-left: -10px;
+}
+
+.start{
+    background-color: #13183F;
+    color: #FFFFFF;
+}
+
+.start:hover{
+    background-color: #8085b4;
+}
+
+.start:focus{
+    background-color: #666CA3;
+}
+
+h2.firstTitle{
+    width: 80%;
+     margin-top: 40px;
+      height: 100px;
+}
+
+.btn.rounded-pill.coloured{
+    width: 25%;
+    padding: 10px;
+    margin-top: 10px;
+    background: linear-gradient(180deg,#FF6F48, #F02AA6);
+    color: #FFFFFF;
+}
+
+.btn.rounded-pill.coloured{
+    background: linear-gradient(180deg,#FF6F48, #F02AA6);
+    opacity: 0.8;
+}
+
+div.card-body.first-card{
+    background: linear-gradient(180deg,#FF6F48, #F02AA6);
+    color: #FFFFFF;
+    height: 300px;
+    border-radius: 5px;
+}
+
+.col-xs-12 .col-sm-12 .col-md-6{
+    width: 10%;
+    margin-top: 50px;
+    margin-top: 40px;
+}
+
+img.img-fluide{
+    width: 20%;
+    margin-left: 5%;
+    margin-top: -10%;
+}
+img.first-image{
+    margin-top: -125px;
+    margin-left: 45%;
+    width: 100%;
+   
+}
+
+div.card{
+    margin-top: 15%;
+    border: none;
+    box-shadow: 0px 0px 20px rgb(236,236,236);
+    height: 300px;
+}
+
+p.paragragh{
+    width: 70%;
+}
+
+.float-left{
+    float: left;
+}
+
+h2.firstTitle{
+    width: 80%;
+    margin-top: 40px;
+    height: 100px;
+}
+
+.container-fluid.footer{
+    background-color: #13183F;
+    
+}
+
+a.navbar-brand.footer-color.footer{
+   
+    color: white;
+
+}
+
+.card-text{
+    margin-top: 40px;
+    font-size: 18px;
+}
+
+.card-link{
+    text-decoration: none;
+    color: #F02AA6;
+    font-size: 20px;
+}
+
+div.row.p-2.last-row{
+    margin-bottom: 10%;
+}
+
+button.btn.rounded-pill.color-white{
+    color: white;
+    width: 12%;
+    padding: 10px;
+    background: linear-gradient(180deg,#4851FF, #F02AA6);
+}
+
+button.btn.rounded-pill.color-white:hover{
+    background: linear-gradient(180deg,#4851FF, #F02AA6);
+    opacity: 0.7;
+}
+
+
+
+@media screen and (max-width: 480px){
+
+     .row{
+        flex-direction: column;
+    } 
+
+    img.first-image{
+        content: url("images/image-hero-mobile.png");
+        margin: 0 auto;
+    }
+
+
+    .btn.rounded-pill.coloured{
+        width: 35%;
+    }
+
+    h2.firstTitle{
+        width: 60%;
+        margin-top: 0;
+    }
+
+    .col-xs-12.col-sm-12.col-md-6{
+        width: 100%;
+        margin-top: 20px;
+    }
+
+    p.paragragh{
+        width: 100%;
+        margin-top: 30px;
+    }
+
+    button.btn.rounded-pill.color-white{
+        width: 35%;
+    }
+
+    button.btn.rounded-pill.color-white:hover{
+        background: linear-gradient(180deg,#4851FF, #F02AA6);
+        opacity: 0.7;
+    }
+
+   .card.first{
+       height: 0;
+       margin-top: -40px;
+       margin-bottom: 30%;
+   }
+
+    
+}
+
+
+   @media only screen and (min-width: 768px) and (max-width: 989px) {
+    .col {
+      width: 50%;
+      margin-top: 0;
+    }
+    
+
+    .Photography{
+        margin-top: -52%;
+        margin-left: 50%;
+    }
+
+    p.paragragh{
+        font-size: 25px;
+        width: 110%;
+        font-weight: 200px;
+        margin-top: 25px;
+    }
+
+    img.first-image{
+        content: url("images/image-hero-tablet@2x.png");
+        position: absolute;
+        margin: 0 auto;
+        margin-top: -25%;
+        margin-left: -10%;
+        width: 100%;
+    }
+
+    button.btn.rounded-pill.start{
+        width: 20%;
+        padding: 6px;
+        font-size: 20px;
+    }
+
+    button.btn.rounded-pill.coloured{
+        width: 40%;
+    }
+
+    button.btn.rounded-pill.color-white{
+        width: 20%;
+    }
+
+    .main-content{
+        margin-top: 40%;
+    }
+
+    h2.firstTitle{
+        font-size: 43px;
+        width: 100%;
+
+    }
+
+    h2.colored-card{
+        padding: 20px;
+        margin-top: 20px;
+  } 
+
+  .container.footer-container{
+      padding: 12px;
+  }
+  
+   }
+
+   @media only screen and (min-width: 1000px) {
+       img.first-image{
+           width: 100%;
+           margin-left: 41%;
+           margin-top: -20%;
+       }
+
+       
+
+   }
